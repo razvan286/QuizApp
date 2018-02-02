@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.quizapp.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_field"
+            android:inputType="textCapWords"
+            android:padding="15dp"
+            android:imeOptions="actionDone"
+            />
+
+        <ImageView
+            android:id="@+id/title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_image"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/first_player"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_player_text"
+            android:textAllCaps="true"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textAppearance="@style/CodeFont"/>
+
+        <ImageView
+            android:id="@+id/rafa_nadal_view"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/rafa_nadal" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ButtonA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question1_a1"
+                android:onClick="RadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/ButtonB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question1_a2"
+                android:onClick="RadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/ButtonC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question1_a3"
+                android:onClick="RadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/ButtonD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question1_a4"
+                android:onClick="RadioButtonClicked"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/second_player"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second_player_text"
+            android:textAllCaps="true"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textAppearance="@style/CodeFont"/>
+
+        <ImageView
+            android:id="@+id/roger_federer_view"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/roger_federer" />
+
+        <EditText
+            android:id="@+id/edit_text_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:imeOptions="actionDone"
+            android:hint="@string/edit_text_hint"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/third_player"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third_player_text"
+            android:textAllCaps="true"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textAppearance="@style/CodeFont"/>
+
+        <ImageView
+            android:id="@+id/novak_murray_view"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/novak_murray" />
+
+        <CheckBox
+            android:id="@+id/checkbox_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CheckBoxClicked"
+            android:text="@string/check_box_a1" />
+
+        <CheckBox
+            android:id="@+id/checkbox_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CheckBoxClicked"
+            android:text="@string/check_box_a2" />
+
+        <CheckBox
+            android:id="@+id/checkbox_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CheckBoxClicked"
+            android:text="@string/check_box_a3" />
+
+        <CheckBox
+            android:id="@+id/checkbox_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CheckBoxClicked"
+            android:text="@string/check_box_a4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/forth_player"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forth_player_text"
+            android:textAllCaps="true"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textAppearance="@style/CodeFont"/>
+
+        <ImageView
+            android:id="@+id/simona_halep_view"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/simona_halep" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_4_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question4_a1"
+                android:onClick="RadioButtonClicked2"/>
+            <RadioButton
+                android:id="@+id/question_4_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question4_a2"
+                android:onClick="RadioButtonClicked2"/>
+            <RadioButton
+                android:id="@+id/question_4_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question4_a3"
+                android:onClick="RadioButtonClicked2"/>
+            <RadioButton
+                android:id="@+id/question_4_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiob_question4_a4"
+                android:onClick="RadioButtonClicked2"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:onClick="submit"
+            android:text="@string/submit_button" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:onClick="reset"
+            android:text="@string/reset_button"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
