@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="name_field">Name</string>
+
+    <string name="first_player_text">Who is this player?</string>
+
+    <string name="radiob_question1_a1">Andy Rodick</string>
+
+    <string name="radiob_question1_a2">Marin Cilic</string>
+
+    <string name="radiob_question1_a3">Rafael Nadal</string>
+
+    <string name="radiob_question1_a4">Juan Martin Del Potro</string>
+
+    <string name="second_player_text">This player is:</string>
+
+    <string name="edit_text_hint">Player`s name</string>
+
+    <string name="third_player_text">Who are these players?</string>
+
+    <string name="check_box_a1">Novak Djokovic</string>
+
+    <string name="check_box_a2">Grigor Dimitrov</string>
+
+    <string name="check_box_a3">Alexander Zverev</string>
+
+    <string name="check_box_a4">Andy Murray</string>
+
+    <string name="forth_player_text">Who is this player?</string>
+
+    <string name="radiob_question4_a1">Angelique Kerber</string>
+
+    <string name="radiob_question4_a2">Jelena Ostapenko</string>
+
+    <string name="radiob_question4_a3">Caroline Wozniacki</string>
+
+    <string name="radiob_question4_a4">Simona Halep</string>
+
+    <string name="submit_button">Submit</string>
+
+    <string name="reset_button">Reset</string>
+
+
+</resources>
